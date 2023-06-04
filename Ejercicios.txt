@@ -1,0 +1,49 @@
+Cree las variables y asigne los siguientes valores y Muestre la información en consola
+de los datos ingresados
+nombre = “Andres”
+edad = 18
+identificacion = “1061555333”
+mayor_de_edad = edad >= 18 1
+
+Elaborar un programa  que  convierta  un  numero decimal ingresado  por teclado a
+numero  binario, al final  deberá mostrar cual es su equivalencia 1
+
+Elaboraremos un programa  que  convierta  un  numero binario ingresado por teclado
+a numero  decimal, al final  deberá mostrar cual es su equivalencia 1
+
+Realiza un  programa que  convierta un  numero  decimal  a binario, octal y
+hexadecimal, al final  deberá mostrar cual es su resultado 1
+
+Suma de 3 numeros ingresados por  teclado  y calcular el promedio 1
+
+Elabore una minicalculadora que al ingresar 2 numeros me calcule el resultado de la
+suma, resta, producto, division, exponenciaxion, modulo de la division 1
+
+Calcule el  valor  del  IVA 19% y el descuento de un producto ingresado por teclado
+De acuerdo con la tabla realice un programa que convierta una unidad a otra unidad,
+por  ejemplo  si el usuario ingresa 1 MB el  sistema  deberá  arrojar  el siguiente
+resultado
+1MB son:
+8388608 Bits
+1048576 Bytes
+1024 Kb
+0.000976563 GB 1
+
+Elabora un programa que le pida al usuario una base y un exponente, posteriormente
+mostrar el  resultado  al usuario 1
+
+Elabore un  programa me muestre en  pantalla el  tipo de  dato  que el usuario  ha
+ingresado, por  ejemplo si  ingresa Juan el  deberá decir que es texto, en caso  que
+ingrese 2018 deberá decir que es  entero 1
+
+Crea un programa que lea un valor  y  muestre en pantalla la longitud de ese valor por
+ejemplo si el usuario ingresa "Diego Fernando"  deberá decir  que ha ingresado  14
+caracteres 1
+
+Realiza un programa que  me calcule el  área  del  circulo, la  cual el usuario ingresa 1
+el  valor del  radio
+
+Crea un programa que  permita calcular el área del triangulo 1
+
+Cree un algoritmo  que  permita intercambiar el valor de una variable a=3, b=2
+deberá quedar a=2 y b=3 1
