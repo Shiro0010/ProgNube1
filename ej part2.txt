@@ -1,0 +1,78 @@
+Elabora  un programa que  me muestre en pantalla cual de los dos números
+ingresados por  teclado es mayor 1
+
+Crea un programa  que diga si un numero ingresado por teclado es par o impar 1
+
+Calcular el promedio de 3 números ingresados por teclado y mostrar su resultado 1
+
+Elabora un programa que me muestre en pantalla de forma ordenada de menor a
+mayor dos números ingresados por teclado, por ejemplo si ingreso 5 Y 4 deberá
+mostrar, "los números ingresados  son  5 y 4 y organizados  son  4, 5" 0
+
+Elabora un programa que lea 3 números por  teclado y me los muestre  organizado de
+mayor a menor por ejemplo si ingreso 53, 10 Y 24 deberá mostrar, "los números
+ingresados  son  53, 10 Y 24 y organizados de forma descendente son  53, 24, 10
+                              
+Se desea obtener la nómina semanal —salario neto— de los empleados de una
+empresa cuyo trabajo se paga por horas y del modo siguiente:
+las horas inferiores o iguales a 35 horas (normales) se pagan a una tarifa
+determinada que se debe introducir por teclado al igual que el número de horas y el
+nombre del trabajador,
+las horas superiores a 35 se pagarán como extras a un promedio de 1,5 horas
+normales,
+los impuestos a deducir a los trabajadores varían en función de su sueldo mensual:
+sueldo <= 2.000, libre de impuestos,
+las siguientes 220 euros al 20 por 100,
+el resto, al 30 por 100.
+
+Elabora un programa para una discoteca que necesita controlar el acceso a las
+personas la  cual pida el nombre a una persona y su edad, en caso  que  sea  mayor
+de  18  lo deje ingresar, si es  menor  de edad debe  mostrar un  mensaje diciendole
+que no puede ingresar y si  tiene 18 años  debera  preguntar por su  identificación
+
+Tatiana tiene  ganas  de salir  con su amiga Paola a tomar un cafe  pero ella  sabe
+que si va al  centro comercial Campanario deberá pagar transporte ida y regreso  y los
+cafes de ambas, pero  si va a Terraplaza se ahorra el transporte,  pero  tambien debe
+tener encuenta que  el  cafe  en Terraplaza es 2 veces mas costoso que en
+campanario el cual  tiene un costo de 4000 y tambien cuenta con  20000 el  tranporte
+seria en bus por un valor  de 1600  el  programa le debe decir a Tatiana cual seria la
+mejor opcion que debe tomar
+
+Empleo de estructura selectiva para detectar si un número es entero o real
+
+Utiliza una Estructura selectiva para averiguar si un año leído de teclado es o no
+bisiesto
+
+Crea un Algoritmo que nos calcule el área de un triángulo conociendo sus lados
+
+Realizar  un programa para saber que día tiene pico y placa su vehículo
+
+Construye un programa que Si distancia es mayor que 20 y menos que 35, leer un
+valor para tiempo y calcular  la  Velocidad si   Distancia = Velocidad * Tiempo
+Elabora un programa que Dados tres números deduzca cuál es el central
+
+Calcular la raíz cuadrada de un número y escribir su resultado. Considerando el caso
+en que el número sea negativo
+
+Se desea realizar una estadística de los pesos de los alumnos de un colegio de
+acuerdo a la siguiente tabla:
+Alumnos de menos de 40 kg.
+Alumnos entre 40 y 50 kg.
+Alumnos de más de 50 kg y menos de 60 kg.
+Alumnos de más o igual a 60 kg.
+
+Un ángulo se considera agudo si es menor de 90 grados, obtuso si es mayor de 90
+grados y recto si es igual a 90 grados. Utilizando esta información, escribir un
+algoritmo que acepte un ángulo en grados y visualice el tipo de ángulo
+correspondiente a los grados introducidos
+
+El sistema de calificación americano (de Estados Unidos) se suele calcular de
+acuerdo al siguiente cuadro: (Utilizando esta información, escribir un algoritmo que
+acepte una calificación numérica del estudiante (0-100), convierta esta calificación a
+su equivalente en letra y visualice la calificación correspondiente en letra)
+Grado numérico Grado en letra
+Grado mayor o igual a 90    A
+Menor de 90 pero mayor o igual a 80  B
+Menor de 80 pero mayor o igual a 70  C
+Menor de 70 pero mayor o igual a 69  D
+Menor de 69        F
