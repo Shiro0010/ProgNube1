@@ -13,40 +13,46 @@ def suma_divisores(n):
     return suma
 
 
-def primeros_numeros_perfectos(m):
+def primeros_numeros_perfectos(numero):
     numeros_perfectos = []
-    numero = 6
     exponente = 2
-    while len(numeros_perfectos) < m:
+    while True:
         candidato = (2 ** (exponente - 1)) * ((2 ** exponente) - 1)
+        if candidato >= numero:
+            break
         if suma_divisores(candidato) == candidato:
             numeros_perfectos.append(candidato)
         exponente += 1
     return numeros_perfectos
 
 
-def primeras_parejas_amigos(m):
+def primeras_parejas_amigos(numero):
     parejas_amigos = []
     divisores = {}
     a = 1
-    while len(parejas_amigos) < m:
+    while True:
         b = suma_divisores(a)
         if b in divisores and divisores[b] == a and a != b:
             parejas_amigos.append((a, b))
         divisores[a] = b
         a += 1
+        if a > numero:
+            break
     return parejas_amigos
-# Ingresar número por teclado para calcular la suma de los divisores
+
 numero = int(input("Ingrese un número: "))
 resultado = suma_divisores(numero)
 print("La suma de los divisores de", numero, "es:", resultado)
 
-# Ingresar número por teclado para obtener los primeros números perfectos
-m = int(input("Ingrese la cantidad de números perfectos a obtener: "))
-numeros_perfectos = primeros_numeros_perfectos(m)
-print("Los primeros", m, "números perfectos son:", numeros_perfectos)
+numeros_perfectos = primeros_numeros_perfectos(numero)
+if numeros_perfectos:
+    print("Los números perfectos antes de", numero, "son:", numeros_perfectos)
+else:
+    print("No hay números perfectos antes de", numero)
 
-# Ingresar número por teclado para obtener las primeras parejas de números amigos
-m = int(input("Ingrese la cantidad de parejas de números amigos a obtener: "))
-parejas_amigos = primeras_parejas_amigos(m)
-print("Las primeras", m, "parejas de números amigos son:", parejas_amigos)
+parejas_amigos = primeras_parejas_amigos(numero)
+if parejas_amigos:
+    print("Las parejas de números amigos antes de", numero, "son:", parejas_amigos)
+else:
+    print("No hay parejas de números amigos antes del", numero)
+
